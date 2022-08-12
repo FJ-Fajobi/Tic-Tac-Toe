@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TicTacToe.css">
+</head>
+<body onload="playMusic()">
+    <audio id="startButton">
+        <source src="greatest.mp3" type="audio/mpeg">
+    </audio>
+    <div>
+        <button class="btn-music" onclick="stopMusic()">Stop Music</button>
+        <button class="btn-music" onclick="playMusic()">Play Music</button>
+    </div>
+    <div class="score-one" id="playerOne"></div>
+    <div class="score-bd-p1" ></div>
+    <section class="grid-boxes">
+        <div class="my-grids" id="boxOneOne">11</div>
+        <div class="my-grids" id="boxOneTwo">12</div>
+        <div class="my-grids" id="boxOneThree">13</div>
+        <div class="my-grids" id="boxTwoOne">21</div>
+        <div class="my-grids" id="boxTwoTwo">22</div>
+        <div class="my-grids" id="boxTwoThree">23</div>
+        <div class="my-grids" id="boxThreeOne">31</div>
+        <div class="my-grids" id="boxThreeTwo">32</div>
+        <div class="my-grids" id="boxThreeThree">33</div>
+    </section>
+    <button class="btn-game">Start Game</button>
+    <button class="btn-game">Pause Game</button>
+    <div class="score-two" id="playerTwo"></div>
+    <div class="score-bd-p2"></div>
+
+    <script src="TicTacToe.js"></script>
+  
+</body>
+</html>
