@@ -1,15 +1,12 @@
 body{
     background: rgb(2,0,36, 25%);
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,19,121,0.21612394957983194) 35%, rgba(0,212,255,1) 100%);
-     */
-    justify-content: center;
 }
 .details-sectn{
     border: none;
     border-radius: 20%;
     height: 300px;
     max-width: 30%;
-    padding: 6px;
+    padding: 10px;
     margin: auto;
     background-color:  rgba(25, 2, 34, 4%);
     box-shadow: 0 3px 10px rgb(0 0 2 /0.6);
@@ -17,7 +14,7 @@ body{
 .text-name{
     font-size: x-large;
     position: relative;
-    left: 18px;
+    left: 20px;
     top: 20px;
 
 }
@@ -28,15 +25,21 @@ h1, .text-name{
 
 }
 input{
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px -5px 30px;
     padding: 10px;
     width: 80%;
     background-color: azure;
     border-radius: 10px;
 }
-.btn-start{
+.display-text{
+    margin: 8px auto;
+    height: 10px;
+    width: fit-content;
+    color: red;
+}
+.btn-submit{
     position: relative;
-    transform: translate(130px, 70%);
+    transform: translate(130px, 40%);
     height: 40px;
     width: 150px;
     font-size: 1.3em;
@@ -45,7 +48,7 @@ input{
     border-radius: 10px;
     box-shadow: 0 3px 10px rgb(0 0 2 /0.6);
 }
-.btn-start:hover, .btn-music:hover, .btn-game:hover{
+.btn-submit:hover, .btn-music:hover, .btn-game:hover{
     background-color: rgba(25, 2, 34, 30%);
 }
 .btn-music{
